@@ -1,26 +1,7 @@
 ============
-Python Koans
+Python Koans: A fork of Greg Malcom's GitHub Python Koans 
 ============
 
-.. image:: https://travis-ci.org/gregmalcolm/python_koans.png?branch=master
-   :target: http://travis-ci.org/gregmalcolm/python_koans
-
-.. image:: https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod
-    :target: https://gitpod.io/#https://github.com/gregmalcolm/python_koans
-    
-.. image:: https://www.eclipse.org/che/contribute.svg
-    :target: https://workspaces.openshift.com/f?url=https://gitpod.io/#https://github.com/gregmalcolm/python_koans
-
-One click installation:
------------------------
-
-.. image:: https://www.eclipse.org/che/contribute.svg
-    :target: https://workspaces.openshift.com/f?url=https://gitpod.io/#https://github.com/gregmalcolm/python_koans
-|   or
-.. image:: https://gitpod.io/button/open-in-gitpod.svg
-    :target: https://gitpod.io/#https://gitpod.io/#https://github.com/gregmalcolm/python_koans
-
-|
 
 Python Koans is a port of Edgecase's "Ruby Koans" which can be found
 at http://rubykoans.com/.
@@ -49,46 +30,6 @@ triangle is equilateral, isosceles or scalene.
 
 As well as being a great way to learn some Python, it is also a good way to get
 a taste of Test Driven Development (TDD).
-
-
-Downloading Python Koans
-------------------------
-
-Python Koans is available on GitHub:
-
-* https://github.com/gregmalcolm/python_koans
-
-You can clone with Git or download the source as a zip/gz/bz2.
-
-
-Installing Python Koans
------------------------
-
-Aside from downloading or checking out the latest version of Python Koans, you
-need to install the Python interpreter.
-
-At this time of writing, we support Python 3. The policy is to try to keep
-current with the latest production version.
-
-You should be able to work with newer Python versions, but older ones will
-likely give you problems.
-
-You can download Python from here:
-
-* https://www.python.org/downloads/
-
-After installing Python make sure the folder containing the python executable
-is in the system path. In other words, you need to be able to run Python from a
-command console. It will either be ``python3`` or for Windows it will be ``python.exe``.
-
-If you have problems, this may help:
-
-* https://www.python.org/about/gettingstarted/
-
-Windows users may also want to update the line in the batch file ``run.bat`` to
-set the python path::
-
-    SET PYTHON_PATH=C:\Python39
 
 
 Getting Started
